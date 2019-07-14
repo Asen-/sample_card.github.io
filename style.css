@@ -1,0 +1,79 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+ body{
+   margin: 0;
+ }
+ img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 70px 70px 10px 70px;
+}
+
+.menu a + a {
+  margin-left: 5em;
+  text-decoration: none;
+  color: black;
+}
+
+.home {
+  margin-right: auto;
+  text-decoration: none;
+  color: black;
+}
+
+.text {
+  margin-left: 70px;
+  margin-top: 15%;
+}
+
+.text p {
+  width: 30em;
+}
+
+.bgimage {
+  position: absolute;
+  z-index: -1;
+}
+
+.workers_image{
+  width: 60em;
+  
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #b3eaff;
+  font-size: 12px;
+  border: groove 1em #b3eaff;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image {
+  width: 20em;
+  margin-top: 15%;
+  margin-right: 10%;
+}
+
+.icon {
+  margin: 5em 0 1em 70px;
+}
